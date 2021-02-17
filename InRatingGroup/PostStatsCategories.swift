@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-enum PostStatsCategories: CaseIterable {
+enum PostStatsCategories: Int, CaseIterable {
     case views
     case likes
     case comments
